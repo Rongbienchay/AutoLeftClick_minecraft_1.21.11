@@ -1,9 +1,31 @@
-# Template Mod
+# FreeClick
 
-## Setup
+A lightweight Minecraft Fabric client-side mod that automatically performs left-click actions without taking control of the mouse.
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+## Features
 
-## License
+- 🖱️ Automatic left-click
+- 🎯 Works without locking or taking control of the mouse
+- ⚙️ Adjustable click delay
+- 🎚️ Delay from `0.1s` to `5.0s`
+- 🔘 Toggle Auto Click ON/OFF
+- ⌨️ Press `F8` to open the configuration GUI
+- 🚫 No target scanning or target locking
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Usage
+
+Press `F8` to open the FreeClick GUI.
+
+### Auto Attack
+
+Toggle the feature:
+
+- `ON` → Automatically performs left-click
+- `OFF` → Disabled
+
+### Click Delay
+
+Adjust the delay between clicks from:
+
+```text
+0.1s → 5.0s
